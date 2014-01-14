@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48F6C417183A7F0900E90DE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48F6C416183A7F0900E90DE4 /* Foundation.framework */; };
+		48F6C41A183A7F0900E90DE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F6C419183A7F0900E90DE4 /* main.m */; };
+		48F6C41E183A7F0900E90DE4 /* ___Symbolic_Constants.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 48F6C41D183A7F0900E90DE4 /* ___Symbolic_Constants.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		48F6C411183A7F0900E90DE4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				48F6C41E183A7F0900E90DE4 /* ___Symbolic_Constants.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		48F6C413183A7F0900E90DE4 /* 5. Symbolic Constants */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "5. Symbolic Constants"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48F6C416183A7F0900E90DE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		48F6C419183A7F0900E90DE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48F6C41C183A7F0900E90DE4 /* 5. Symbolic Constants-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "5. Symbolic Constants-Prefix.pch"; sourceTree = "<group>"; };
+		48F6C41D183A7F0900E90DE4 /* ___Symbolic_Constants.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "___Symbolic_Constants.1"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48F6C410183A7F0900E90DE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48F6C417183A7F0900E90DE4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48F6C40A183A7F0900E90DE4 = {
+			isa = PBXGroup;
+			children = (
+				48F6C418183A7F0900E90DE4 /* 5. Symbolic Constants */,
+				48F6C415183A7F0900E90DE4 /* Frameworks */,
+				48F6C414183A7F0900E90DE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48F6C414183A7F0900E90DE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48F6C413183A7F0900E90DE4 /* 5. Symbolic Constants */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48F6C415183A7F0900E90DE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48F6C416183A7F0900E90DE4 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48F6C418183A7F0900E90DE4 /* 5. Symbolic Constants */ = {
+			isa = PBXGroup;
+			children = (
+				48F6C419183A7F0900E90DE4 /* main.m */,
+				48F6C41D183A7F0900E90DE4 /* ___Symbolic_Constants.1 */,
+				48F6C41B183A7F0900E90DE4 /* Supporting Files */,
+			);
+			path = "5. Symbolic Constants";
+			sourceTree = "<group>";
+		};
+		48F6C41B183A7F0900E90DE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48F6C41C183A7F0900E90DE4 /* 5. Symbolic Constants-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48F6C412183A7F0900E90DE4 /* 5. Symbolic Constants */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48F6C421183A7F0900E90DE4 /* Build configuration list for PBXNativeTarget "5. Symbolic Constants" */;
+			buildPhases = (
+				48F6C40F183A7F0900E90DE4 /* Sources */,
+				48F6C410183A7F0900E90DE4 /* Frameworks */,
+				48F6C411183A7F0900E90DE4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "5. Symbolic Constants";
+			productName = "5. Symbolic Constants";
+			productReference = 48F6C413183A7F0900E90DE4 /* 5. Symbolic Constants */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48F6C40B183A7F0900E90DE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = TurnToTech;
+			};
+			buildConfigurationList = 48F6C40E183A7F0900E90DE4 /* Build configuration list for PBXProject "5. Symbolic Constants" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 48F6C40A183A7F0900E90DE4;
+			productRefGroup = 48F6C414183A7F0900E90DE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48F6C412183A7F0900E90DE4 /* 5. Symbolic Constants */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48F6C40F183A7F0900E90DE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48F6C41A183A7F0900E90DE4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		48F6C41F183A7F0900E90DE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		48F6C420183A7F0900E90DE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		48F6C422183A7F0900E90DE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "5. Symbolic Constants/5. Symbolic Constants-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		48F6C423183A7F0900E90DE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "5. Symbolic Constants/5. Symbolic Constants-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48F6C40E183A7F0900E90DE4 /* Build configuration list for PBXProject "5. Symbolic Constants" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F6C41F183A7F0900E90DE4 /* Debug */,
+				48F6C420183A7F0900E90DE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48F6C421183A7F0900E90DE4 /* Build configuration list for PBXNativeTarget "5. Symbolic Constants" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F6C422183A7F0900E90DE4 /* Debug */,
+				48F6C423183A7F0900E90DE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48F6C40B183A7F0900E90DE4 /* Project object */;
+}

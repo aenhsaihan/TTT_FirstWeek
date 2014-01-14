@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the '20. Riemann Zeta' target in the '20. Riemann Zeta' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

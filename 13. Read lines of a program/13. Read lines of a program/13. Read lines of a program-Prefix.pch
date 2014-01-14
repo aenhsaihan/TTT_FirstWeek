@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the '13. Read lines of a program' target in the '13. Read lines of a program' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

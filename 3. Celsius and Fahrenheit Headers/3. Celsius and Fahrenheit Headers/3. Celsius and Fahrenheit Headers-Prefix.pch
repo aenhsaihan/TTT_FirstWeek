@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the '3. Celsius and Fahrenheit Headers' target in the '3. Celsius and Fahrenheit Headers' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

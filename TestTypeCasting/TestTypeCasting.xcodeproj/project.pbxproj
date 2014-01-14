@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4808C970183FC2C600387047 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4808C96F183FC2C600387047 /* UIKit.framework */; };
+		4808C972183FC2C600387047 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4808C971183FC2C600387047 /* Foundation.framework */; };
+		4808C974183FC2C600387047 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4808C973183FC2C600387047 /* CoreGraphics.framework */; };
+		4808C97A183FC2C600387047 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4808C978183FC2C600387047 /* InfoPlist.strings */; };
+		4808C97C183FC2C600387047 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4808C97B183FC2C600387047 /* main.m */; };
+		4808C980183FC2C600387047 /* TTTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4808C97F183FC2C600387047 /* TTTAppDelegate.m */; };
+		4808C982183FC2C600387047 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4808C981183FC2C600387047 /* Default.png */; };
+		4808C984183FC2C600387047 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4808C983183FC2C600387047 /* Default@2x.png */; };
+		4808C986183FC2C600387047 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4808C985183FC2C600387047 /* Default-568h@2x.png */; };
+		4808C989183FC2C600387047 /* TTTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4808C988183FC2C600387047 /* TTTViewController.m */; };
+		4808C98C183FC2C600387047 /* TTTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4808C98A183FC2C600387047 /* TTTViewController.xib */; };
+		4808C994183FC2E700387047 /* Elements.m in Sources */ = {isa = PBXBuildFile; fileRef = 4808C993183FC2E700387047 /* Elements.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4808C96C183FC2C600387047 /* TestTypeCasting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTypeCasting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4808C96F183FC2C600387047 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4808C971183FC2C600387047 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4808C973183FC2C600387047 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4808C977183FC2C600387047 /* TestTypeCasting-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestTypeCasting-Info.plist"; sourceTree = "<group>"; };
+		4808C979183FC2C600387047 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4808C97B183FC2C600387047 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4808C97D183FC2C600387047 /* TestTypeCasting-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestTypeCasting-Prefix.pch"; sourceTree = "<group>"; };
+		4808C97E183FC2C600387047 /* TTTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTTAppDelegate.h; sourceTree = "<group>"; };
+		4808C97F183FC2C600387047 /* TTTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTAppDelegate.m; sourceTree = "<group>"; };
+		4808C981183FC2C600387047 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4808C983183FC2C600387047 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4808C985183FC2C600387047 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4808C987183FC2C600387047 /* TTTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTTViewController.h; sourceTree = "<group>"; };
+		4808C988183FC2C600387047 /* TTTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTViewController.m; sourceTree = "<group>"; };
+		4808C98B183FC2C600387047 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TTTViewController.xib; sourceTree = "<group>"; };
+		4808C992183FC2E700387047 /* Elements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Elements.h; sourceTree = "<group>"; };
+		4808C993183FC2E700387047 /* Elements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Elements.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4808C969183FC2C600387047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4808C970183FC2C600387047 /* UIKit.framework in Frameworks */,
+				4808C972183FC2C600387047 /* Foundation.framework in Frameworks */,
+				4808C974183FC2C600387047 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4808C963183FC2C600387047 = {
+			isa = PBXGroup;
+			children = (
+				4808C975183FC2C600387047 /* TestTypeCasting */,
+				4808C96E183FC2C600387047 /* Frameworks */,
+				4808C96D183FC2C600387047 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4808C96D183FC2C600387047 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4808C96C183FC2C600387047 /* TestTypeCasting.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4808C96E183FC2C600387047 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4808C96F183FC2C600387047 /* UIKit.framework */,
+				4808C971183FC2C600387047 /* Foundation.framework */,
+				4808C973183FC2C600387047 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4808C975183FC2C600387047 /* TestTypeCasting */ = {
+			isa = PBXGroup;
+			children = (
+				4808C992183FC2E700387047 /* Elements.h */,
+				4808C993183FC2E700387047 /* Elements.m */,
+				4808C97E183FC2C600387047 /* TTTAppDelegate.h */,
+				4808C97F183FC2C600387047 /* TTTAppDelegate.m */,
+				4808C987183FC2C600387047 /* TTTViewController.h */,
+				4808C988183FC2C600387047 /* TTTViewController.m */,
+				4808C98A183FC2C600387047 /* TTTViewController.xib */,
+				4808C976183FC2C600387047 /* Supporting Files */,
+			);
+			path = TestTypeCasting;
+			sourceTree = "<group>";
+		};
+		4808C976183FC2C600387047 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4808C977183FC2C600387047 /* TestTypeCasting-Info.plist */,
+				4808C978183FC2C600387047 /* InfoPlist.strings */,
+				4808C97B183FC2C600387047 /* main.m */,
+				4808C97D183FC2C600387047 /* TestTypeCasting-Prefix.pch */,
+				4808C981183FC2C600387047 /* Default.png */,
+				4808C983183FC2C600387047 /* Default@2x.png */,
+				4808C985183FC2C600387047 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4808C96B183FC2C600387047 /* TestTypeCasting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4808C98F183FC2C600387047 /* Build configuration list for PBXNativeTarget "TestTypeCasting" */;
+			buildPhases = (
+				4808C968183FC2C600387047 /* Sources */,
+				4808C969183FC2C600387047 /* Frameworks */,
+				4808C96A183FC2C600387047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestTypeCasting;
+			productName = TestTypeCasting;
+			productReference = 4808C96C183FC2C600387047 /* TestTypeCasting.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4808C964183FC2C600387047 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TTT;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = TurnToTech;
+			};
+			buildConfigurationList = 4808C967183FC2C600387047 /* Build configuration list for PBXProject "TestTypeCasting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4808C963183FC2C600387047;
+			productRefGroup = 4808C96D183FC2C600387047 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4808C96B183FC2C600387047 /* TestTypeCasting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4808C96A183FC2C600387047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4808C97A183FC2C600387047 /* InfoPlist.strings in Resources */,
+				4808C982183FC2C600387047 /* Default.png in Resources */,
+				4808C984183FC2C600387047 /* Default@2x.png in Resources */,
+				4808C986183FC2C600387047 /* Default-568h@2x.png in Resources */,
+				4808C98C183FC2C600387047 /* TTTViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4808C968183FC2C600387047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4808C97C183FC2C600387047 /* main.m in Sources */,
+				4808C980183FC2C600387047 /* TTTAppDelegate.m in Sources */,
+				4808C989183FC2C600387047 /* TTTViewController.m in Sources */,
+				4808C994183FC2E700387047 /* Elements.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4808C978183FC2C600387047 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4808C979183FC2C600387047 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4808C98A183FC2C600387047 /* TTTViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4808C98B183FC2C600387047 /* en */,
+			);
+			name = TTTViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4808C98D183FC2C600387047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4808C98E183FC2C600387047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4808C990183FC2C600387047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestTypeCasting/TestTypeCasting-Prefix.pch";
+				INFOPLIST_FILE = "TestTypeCasting/TestTypeCasting-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4808C991183FC2C600387047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestTypeCasting/TestTypeCasting-Prefix.pch";
+				INFOPLIST_FILE = "TestTypeCasting/TestTypeCasting-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4808C967183FC2C600387047 /* Build configuration list for PBXProject "TestTypeCasting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4808C98D183FC2C600387047 /* Debug */,
+				4808C98E183FC2C600387047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4808C98F183FC2C600387047 /* Build configuration list for PBXNativeTarget "TestTypeCasting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4808C990183FC2C600387047 /* Debug */,
+				4808C991183FC2C600387047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4808C964183FC2C600387047 /* Project object */;
+}

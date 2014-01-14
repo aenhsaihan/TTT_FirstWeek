@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the '12. Read a file and store' target in the '12. Read a file and store' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

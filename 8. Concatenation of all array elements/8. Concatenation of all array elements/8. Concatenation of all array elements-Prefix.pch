@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the '8. Concatenation of all array elements' target in the '8. Concatenation of all array elements' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

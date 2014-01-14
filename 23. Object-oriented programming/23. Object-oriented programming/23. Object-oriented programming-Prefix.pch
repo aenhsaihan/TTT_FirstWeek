@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the '23. Object-oriented programming' target in the '23. Object-oriented programming' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

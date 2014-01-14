@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the '16. Calculate nth power of an integer' target in the '16. Calculate nth power of an integer' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

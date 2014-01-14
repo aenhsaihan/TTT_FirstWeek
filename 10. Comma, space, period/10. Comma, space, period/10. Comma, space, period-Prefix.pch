@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the '10. Comma, space, period' target in the '10. Comma, space, period' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

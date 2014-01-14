@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the '18. Write a function to swap two integers' target in the '18. Write a function to swap two integers' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
